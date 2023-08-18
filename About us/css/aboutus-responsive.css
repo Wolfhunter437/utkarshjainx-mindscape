@@ -1,0 +1,2421 @@
+/*-----------------------------------------------------------------------------------------------575px-----------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 575px){
+
+body .backgroundTxt1
+{
+  font-size: 1400%;
+  top: 60%;
+  right: -141%;
+  animation: background1 8s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background1
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-170%);
+  }
+}
+
+body .backgroundTxt2
+{
+  font-size: 1000%;
+  top: 20%;
+  left: -101%;
+  animation: background2 7.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background2
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(200%);
+  }
+}
+
+body .backgroundTxt3
+{
+  font-size: 300%;
+  top: 0%;
+  right: -30%;
+  animation: background3 6s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background3
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-450%);
+  }
+}
+
+body .backgroundTxt4
+{
+  font-size: 800%;
+  top: 80%;
+  left: -115%;
+  animation: background4 6s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background4
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(190%);
+  }
+}
+
+body .backgroundTxt5
+{
+  font-size: 450%;
+  top: 5%;
+  left: -45%;
+  animation: background5 6.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background5
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(330%);
+  }
+}
+
+body .backgroundTxt6
+{
+  font-size: 1300%;
+  top: 40%;
+  left: -135%;
+  animation: background6 5.5s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background6
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(180%);
+  }
+}
+
+.parallax
+{
+  display: none;
+}
+
+.non-parallax
+{
+  display: block;
+  overflow-x: hidden;
+}
+
+.layer
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0.1rem 0.2rem;
+}
+
+.layer1
+{
+  z-index: 6;
+  display: block;
+}
+
+.layer2
+{
+  z-index: 5;
+  display: block;
+}
+
+.layer3
+{
+  z-index: 4;
+  display: block;
+}
+
+.empty
+{
+  display: none;
+}
+
+/*--------------------------------------------------------------------------------------------Navbar---------------------------------------------------------------------------------------------*/
+
+.navLayer1
+{
+  background: var(--secondary);
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.nav-logo
+{
+  width: 10rem;
+}
+
+.svg1, .svg2
+{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------Layer1-------------------------------------------------------------------------------*/
+
+.AboutusTxt
+{
+  width: 100%;
+  background: var(--gradient);
+  padding: 3rem 0rem;
+  border-radius: 0rem 0rem 0rem 0rem;
+}
+
+.AboutusTxt h1
+{
+  color: var(--white);
+  font-size: 3.4rem;
+  text-align: center;
+}
+
+.short-about
+{
+  width: auto;
+  height: auto;
+  padding: 1rem 1rem 1rem 1rem;
+  background: var(--blue);
+  overflow: hidden;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.short-about h1
+{
+  color: var(--white);
+  font-size: 2.7rem;
+  text-align: center;
+}
+
+.short-about .about
+{
+  display: inline;
+  padding: 1rem 0rem;
+}
+
+.short-about .about h2
+{
+  color: var(--white);
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.short-about .about p 
+{
+  color: var(--white);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.short-about hr 
+{
+  background: var(--white);
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.what
+{
+  border-left: none;
+  border-right: none;
+}
+
+.layer1 .long-about
+{
+  background: var(--gradient2);
+  width: 100%;
+  padding: 3rem 1rem 2rem 1rem;
+  display: inline;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.layer1 .long-about img
+{
+  width: 70vw;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1rem;
+}
+
+.layer1 .long-about .vision
+{
+  padding: 0rem 0rem 0rem 0rem;
+  margin-bottom: 5rem;
+}
+
+.layer1 .long-about .classes
+{
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.layer1 .long-about .vision h1, .long-about .classes h1
+{
+  font-size: 2.2rem;
+  color: var(--white);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.layer1 .long-about .vision p, .long-about .classes p
+{
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--white);
+}
+
+/*-----------------------------------------------------------------------------------------------Layer 2--------------------------------------------------------------------------------------*/
+
+.layer2 .long-about
+{
+  width: 100%;
+  background: var(--gradient);
+  display: inline-block;
+  padding: 3rem 1rem 3rem 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.layer2 .long-about .values
+{
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.layer2 .long-about .values h1
+{
+   color: var(--white);
+   font-size: 2.2rem;
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.layer2 .long-about .values p
+{
+  font-size: 1.3rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.layer2 .long-about .values p span
+{
+  font-weight: 1000;
+  font-size: 1.4rem;
+}
+
+.layer2 .long-about img
+{
+  width: 70vw;
+  margin-bottom: 0rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1rem;
+}
+
+.layer2 .long-about1
+{
+  width: 100%;
+  background: var(--gradient2);
+  display: inline-block;
+  padding: 3rem 1rem 3rem 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.layer2 .long-about1 .team
+{
+  padding: 0rem 0rem 0rem 0rem;
+  margin-bottom: 5rem;
+}
+
+.layer2 .long-about1 .community
+{
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.layer2 .long-about1 .team h1, .layer2 .long-about1 .community h1
+{
+  color: var(--white);
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.layer2 .long-about1 .team p, .layer2 .long-about1 .community p
+{
+  font-size: 1.3rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.layer2 .long-about1 img
+{
+  width: 70vw;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/*-----------------------------------------------------------------------------------------------Layer 3--------------------------------------------------------------------------------------*/
+
+.layer3 .long-about2
+{
+  width: 100%;
+  background: var(--gradient);
+  padding: 3rem 1rem 3rem 1rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.layer3 .long-about2 .join
+{
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.layer3 .long-about2 img
+{
+  width: 70vw;
+  border-radius: 1rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.layer3 .long-about2 .join h1
+{
+  color: var(--white);
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.layer3 .long-about2 .join p 
+{
+  color: var(--white);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+footer
+{
+  background: var(--gradient2);
+  border-radius: 1rem 1rem 1rem 1rem;
+  height: auto;
+  display: inline-block;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer .about 
+{
+  padding: 4rem 0rem 1rem 0rem  ;
+  grid-template-rows: auto auto;
+  grid-row: 1;
+  width: 100%;
+  justify-content: center;
+}
+
+footer .about h1
+{
+  color: var(--white);
+  font-size: 3rem;
+  grid-row: 1;
+  height: 20%;
+  text-align: center;
+}
+
+footer .about p
+{
+  color: var(--white);
+  font-size: 1.4rem;
+  grid-row: 2;
+  height: 60%;
+  text-align: center;
+}
+
+footer .support
+{
+  padding: 4rem 0rem 1rem 0rem;
+  grid-template-rows: auto auto;
+  grid-row: 2;
+  width: 100%;
+}
+
+footer .support h1
+{
+  color: var(--white);
+  font-size: 3rem;
+  grid-row: 1;
+  height: 20%;
+  text-align: center;
+}
+
+footer .support ul
+{
+  text-align: center;
+  font-size: 1.4rem;
+  list-style: none;
+}
+
+footer .support ul li a
+{
+  color: var(--white);
+  text-decoration: none;
+}
+
+footer .support ul li:hover
+{
+  transform: scale(1.3);
+  transition-duration: 0.5s;
+}
+
+footer .support ul li:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+footer .support div
+{
+  font-size: 2rem;
+  color: var(--white);
+  text-align: center;
+}
+
+footer .support div ion-icon:hover
+{
+  transform: scale(1.4);
+  transition-duration: 0.5s;
+}
+
+footer .support div ion-icon:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+footer .newsletter
+{
+  padding: 5rem 0rem 1rem 0rem;
+  grid-template-rows: auto auto auto auto;
+  grid-row: 3;
+  text-align: center;
+}
+
+footer .newsletter h1
+{
+  color: var(--white);
+  font-size: 3rem;
+  grid-row: 1;
+  height: 20%;
+  text-align: center;
+}
+
+footer .newsletter input
+{
+  border: none;
+  color: var(--black);
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  width: 100%;
+  border-radius: 1rem;
+  grid-row: 2;
+  margin-bottom: 2rem;
+}
+
+footer .newsletter p 
+{
+  font-size: 1.5rem;
+  color: var(--white);
+  grid-row: 4;
+  height: 10%;
+}
+
+footer .newsletter button
+{
+  font-size: 1.5rem;
+  color: var(--blue);
+  padding: 1rem 0rem;
+  width: 60%;
+  border: none;
+  border-radius: 1rem;  
+}
+
+footer .newsletter button:hover
+{
+  color: var(--white);
+  background: var(--secondary);
+  transition-duration: 0.5s;
+}
+
+footer .newsletter button:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+}
+
+/*-----------------------------------------------------------------------------------------------575px-----------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------576px to 991px-------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 576px) and (max-width: 991px){
+
+body .backgroundTxt1
+{
+  font-size: 1400%;
+  top: 60%;
+  right: -141%;
+  animation: background1 8s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background1
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-170%);
+  }
+}
+
+body .backgroundTxt2
+{
+  font-size: 1000%;
+  top: 20%;
+  left: -101%;
+  animation: background2 7.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background2
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(200%);
+  }
+}
+
+body .backgroundTxt3
+{
+  font-size: 300%;
+  top: 0%;
+  right: -30%;
+  animation: background3 6s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background3
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-450%);
+  }
+}
+
+body .backgroundTxt4
+{
+  font-size: 800%;
+  top: 80%;
+  left: -115%;
+  animation: background4 6s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background4
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(190%);
+  }
+}
+
+body .backgroundTxt5
+{
+  font-size: 450%;
+  top: 5%;
+  left: -45%;
+  animation: background5 6.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background5
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(330%);
+  }
+}
+
+body .backgroundTxt6
+{
+  font-size: 1300%;
+  top: 40%;
+  left: -135%;
+  animation: background6 5.5s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background6
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(180%);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+body .backgroundTxt1
+{
+  font-size: 1800%;
+  top: 60%;
+  right: -150%;
+  animation: background1 9s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background1
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-230%);
+  }
+}
+
+body .backgroundTxt2
+{
+  font-size: 1300%;
+  top: 20%;
+  left: -100%;
+  animation: background2 8.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background2
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(300%);
+  }
+}
+
+body .backgroundTxt3
+{
+  font-size: 350%;
+  top: 0%;
+  right: -30%;
+  animation: background3 7s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background3
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-700%);
+  }
+}
+
+body .backgroundTxt4
+{
+  font-size: 1000%;
+  top: 75%;
+  left: -76%;
+  animation: background4 7s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background4
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(300%);
+  }
+}
+
+body .backgroundTxt5
+{
+  font-size: 500%;
+  top: 5%;
+  left: -40%;
+  animation: background5 7.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background5
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(500%);
+  }
+}
+
+body .backgroundTxt6
+{
+  font-size: 1250%;
+  top: 40%;
+  left: -110%;
+  animation: background6 6.5s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background6
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(300%);
+  }
+}
+}
+
+.parallax
+{
+  display: none;
+}
+
+.non-parallax
+{
+  display: block;
+  overflow-x: hidden;
+}
+
+.layer
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0.1rem 0.2rem;
+}
+
+.layer1
+{
+  z-index: 6;
+  display: block;
+}
+
+.layer2
+{
+  z-index: 5;
+  display: block;
+}
+
+.layer3
+{
+  z-index: 4;
+  display: block;
+}
+
+.empty
+{
+  display: none;
+}
+
+/*--------------------------------------------------------------------------------------------Navbar---------------------------------------------------------------------------------------------*/
+
+.navLayer1
+{
+  background: var(--secondary);
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.nav-logo
+{
+  width: 12rem;
+}
+
+.svg1, .svg2
+{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------Layer1-------------------------------------------------------------------------------*/
+
+.AboutusTxt
+{
+  width: 100%;
+  background: var(--gradient);
+  padding: 3rem 0rem;
+  border-radius: 0rem 0rem 0rem 0rem;
+}
+
+.AboutusTxt h1
+{
+  color: var(--white);
+  font-size: 3.4rem;
+  text-align: center;
+}
+
+.short-about
+{
+  width: auto;
+  height: auto;
+  padding: 1rem 1rem 1rem 1rem;
+  background: var(--blue);
+  overflow: hidden;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.short-about h1
+{
+  color: var(--white);
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.short-about .about
+{
+  display: inline;
+  padding: 1rem 0rem;
+}
+
+.short-about .about h2
+{
+  color: var(--white);
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+.short-about .about p 
+{
+  color: var(--white);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.short-about hr 
+{
+  background: var(--white);
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.what
+{
+  border-left: none;
+  border-right: none;
+}
+
+.layer1 .long-about
+{
+  background: var(--gradient2);
+  width: 100%;
+  padding: 3rem 1.5rem 3rem 1.5rem;
+  display: inline;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.layer1 .long-about img
+{
+  width: 50vw;
+  height: auto;
+  margin-bottom: 1rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1rem;
+}
+
+.layer1 .long-about .vision
+{
+  padding: 0rem 0rem 0rem 0rem;
+  margin-bottom: 5rem;
+}
+
+.layer1 .long-about .classes
+{
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.layer1 .long-about .vision h1, .long-about .classes h1
+{
+  font-size: 2.3rem;
+  color: var(--white);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.layer1 .long-about .vision p, .long-about .classes p
+{
+  font-size: 1.4	rem;
+  text-align: center;
+  color: var(--white);
+}
+
+/*-----------------------------------------------------------------------------------------------Layer 2--------------------------------------------------------------------------------------*/
+
+.layer2 .long-about
+{
+  width: 100%;
+  background: var(--gradient);
+  display: inline-block;
+  padding: 3rem 1.5rem 3rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.layer2 .long-about .values
+{
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.layer2 .long-about .values h1
+{
+   color: var(--white);
+   font-size: 2.3rem;
+   margin-bottom: 2rem;
+   text-align: center;
+}
+
+.layer2 .long-about .values p
+{
+  font-size: 1.4rem;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.layer2 .long-about .values p span
+{
+  font-weight: 1000;
+  font-size: 1.5rem;
+}
+
+.layer2 .long-about img
+{
+  width: 60vw;
+  margin-bottom: 0rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1rem;
+}
+
+.layer2 .long-about1
+{
+  width: 100%;
+  background: var(--gradient2);
+  display: inline-block;
+  padding: 3rem 1.5rem 3rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.layer2 .long-about1 .team
+{
+  padding: 0rem 0rem 0rem 0rem;
+  margin-bottom: 5rem;
+}
+
+.layer2 .long-about1 .community
+{
+  padding: 0rem 0rem 0rem 0rem;
+}
+
+.layer2 .long-about1 .team h1, .layer2 .long-about1 .community h1
+{
+  color: var(--white);
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.layer2 .long-about1 .team p, .layer2 .long-about1 .community p
+{
+  font-size: 1.4rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.layer2 .long-about1 img
+{
+  width: 60vw;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+/*-----------------------------------------------------------------------------------------------Layer 3--------------------------------------------------------------------------------------*/
+
+.layer3 .long-about2
+{
+  width: 100%;
+  background: var(--gradient);
+  padding: 3rem 1.5rem 3rem 1.5rem;
+  display: inline-block;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.layer3 .long-about2 .join
+{
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.layer3 .long-about2 img
+{
+  width: 60vw;
+  border-radius: 1rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.layer3 .long-about2 .join h1
+{
+  color: var(--white);
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.layer3 .long-about2 .join p 
+{
+  color: var(--white);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+footer
+{
+  background: var(--gradient2);
+  border-radius: 1rem 1rem 1rem 1rem;
+  height: auto;
+  display: inline-block;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer .about 
+{
+  padding: 4rem 1rem 1rem 1rem  ;
+  grid-template-rows: auto auto;
+  grid-row: 1;
+  width: 100%;
+  justify-content: center;
+}
+
+footer .about h1
+{
+  color: var(--white);
+  font-size: 3rem;
+  grid-row: 1;
+  height: 20%;
+  text-align: center;
+}
+
+footer .about p
+{
+  color: var(--white);
+  font-size: 1.4rem;
+  grid-row: 2;
+  height: 60%;
+  text-align: center;
+}
+
+footer .support
+{
+  padding: 4rem 0rem 1rem 0rem;
+  grid-template-rows: auto auto;
+  grid-row: 2;
+  width: 100%;
+}
+
+footer .support h1
+{
+  color: var(--white);
+  font-size: 3rem;
+  grid-row: 1;
+  height: 20%;
+  text-align: center;
+}
+
+footer .support ul
+{
+  text-align: center;
+  font-size: 1.4rem;
+  list-style: none;
+}
+
+footer .support ul li a
+{
+  color: var(--white);
+  text-decoration: none;
+}
+
+footer .support ul li:hover
+{
+  transform: scale(1.3);
+  transition-duration: 0.5s;
+}
+
+footer .support ul li:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+footer .support div
+{
+  font-size: 2.4rem;
+  color: var(--white);
+  text-align: center;
+}
+
+footer .support div ion-icon:hover
+{
+  transform: scale(1.4);
+  transition-duration: 0.5s;
+}
+
+footer .support div ion-icon:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+footer .newsletter
+{
+  padding: 5rem 0rem 1rem 0rem;
+  grid-template-rows: auto auto auto auto;
+  grid-row: 3;
+  text-align: center;
+}
+
+footer .newsletter h1
+{
+  color: var(--white);
+  font-size: 3rem;
+  grid-row: 1;
+  height: 20%;
+  text-align: center;
+}
+
+footer .newsletter input
+{
+  border: none;
+  color: var(--black);
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  width: 80%;
+  border-radius: 1rem;
+  grid-row: 2;
+  margin-bottom: 2rem;
+}
+
+footer .newsletter p 
+{
+  font-size: 1.5rem;
+  color: var(--white);
+  grid-row: 4;
+  height: 10%;
+}
+
+footer .newsletter button
+{
+  font-size: 1.5rem;
+  color: var(--blue);
+  padding: 1rem 0rem;
+  width: 60%;
+  border: none;
+  border-radius: 1rem;  
+}
+
+footer .newsletter button:hover
+{
+  color: var(--white);
+  background: var(--secondary);
+  transition-duration: 0.5s;
+}
+
+footer .newsletter button:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+}
+
+/*------------------------------------------------------------------------------------------576px to 991px-------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------992px to 1200px-------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+body .backgroundTxt1
+{
+  font-size: 1800%;
+  top: 60%;
+  right: -150%;
+  animation: background1 9.5s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background1
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-260%);
+  }
+}
+
+body .backgroundTxt2
+{
+  font-size: 1300%;
+  top: 20%;
+  left: -100%;
+  animation: background2 8.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background2
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(300%);
+  }
+}
+
+body .backgroundTxt3
+{
+  font-size: 350%;
+  top: 0%;
+  right: -30%;
+  animation: background3 7s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background3
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-700%);
+  }
+}
+
+body .backgroundTxt4
+{
+  font-size: 1000%;
+  top: 75%;
+  left: -76%;
+  animation: background4 8.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background4
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(350%);
+  }
+}
+
+body .backgroundTxt5
+{
+  font-size: 500%;
+  top: 5%;
+  left: -40%;
+  animation: background5 7.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background5
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(550%);
+  }
+}
+
+body .backgroundTxt6
+{
+  font-size: 1250%;
+  top: 40%;
+  left: -110%;
+  animation: background6 7s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background6
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(350%);
+  }
+}
+
+.layer
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.layer1
+{
+  z-index: 6;
+  display: block;
+}
+
+.layer2
+{
+  z-index: 5;
+  display: none;
+}
+
+.layer3
+{
+  z-index: 4;
+  display: none;
+}
+
+.empty
+{
+  height: 440rem;
+}
+
+/*-----------------------------------------------------------------------------------Navbar---------------------------------------------------------------------------------------------*/
+
+.navLayer1
+{
+  background: var(--secondary);
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 0.5rem 2rem;
+  margin-bottom: 1rem;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.nav-logo
+{
+  width: 11rem;
+}
+
+.nav-link
+{
+	color: var(--white);
+  font-weight: 700;
+	font-size: 1.2rem;
+	letter-spacing: 0.2em;
+	margin: 0rem 0rem 0rem 3rem;
+}
+
+.nav-link:hover
+{
+  color: var(--blue);
+  transition-duration: 0.5s;
+}
+
+.svg1, .svg2
+{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------Layer1-------------------------------------------------------------------------------*/
+
+.AboutusTxt
+{
+  width: 100%;
+  background: var(--gradient);
+  padding: 1rem 0rem;
+  border-radius: 0rem 0rem 0rem 0rem;
+}
+
+.AboutusTxt h1
+{
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.short-about
+{
+  width: auto;
+  height: auto;
+  padding: 2rem 2rem 0rem 2rem;
+  background: var(--blue);
+  overflow: hidden;
+  margin: auto;
+  margin-top: 0.7rem;
+}
+
+.short-about h1
+{
+  color: var(--white);
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.short-about .about
+{
+  display: flex;
+  padding: 1.5rem 1rem;
+}
+
+.short-about .about h2
+{
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.short-about .about p 
+{
+  color: var(--white);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.short-about hr 
+{
+  background: var(--white);
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: none;
+}
+
+.what
+{
+  border-left: 0.1rem solid var(--white);
+  border-right: 0.1rem solid var(--white);
+}
+
+.layer1 .long-about
+{
+  background: var(--gradient2);
+  width: 100%;
+  padding: 2rem 5rem 1rem 5rem;
+  display: flex;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.layer1 .long-about img
+{
+  width: 17vw;
+  height: auto;
+  border-radius: 1rem;
+  margin-top: auto;
+}
+
+.layer1 .long-about .vision
+{
+  padding: 0rem 0rem 0rem 2rem;
+  margin-bottom: 1rem;
+}
+
+.layer1 .long-about .classes
+{
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.layer1 .long-about .vision h1, .long-about .classes h1
+{
+  font-size: 2rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.layer1 .long-about .vision p, .long-about .classes p
+{
+  font-size: 1.3rem;
+  color: var(--white);
+}
+
+/*-----------------------------------------------------------------------------------------------Layer 2--------------------------------------------------------------------------------------*/
+
+.layer2 .long-about
+{
+  width: 100%;
+  background: var(--gradient);
+  display: flex;
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.layer2 .long-about .values
+{
+  padding: 0rem 2rem 0rem 0rem;
+}
+
+.layer2 .long-about .values h1
+{
+   color: var(--white);
+   font-size: 2rem;
+   margin-bottom: 1rem;
+}
+
+.layer2 .long-about .values p
+{
+  font-size: 1.3rem;
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.layer2 .long-about .values p span
+{
+  font-weight: 1000;
+  font-size: 1.4rem;
+}
+
+.layer2 .long-about img
+{
+  width: 20vw;
+  margin-top: auto;
+  border-radius: 1rem;
+}
+
+.layer2 .long-about1
+{
+  width: 100%;
+  background: var(--gradient2);
+  display: flex;
+  padding: 2rem 5rem 2rem 5rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.layer2 .long-about1 .team
+{
+  padding: 0rem 0rem 0rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.layer2 .long-about1 .community
+{
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.layer2 .long-about1 .team h1, .layer2 .long-about1 .community h1
+{
+  color: var(--white);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.layer2 .long-about1 .team p, .layer2 .long-about1 .community p
+{
+  font-size: 1.3rem;
+  color: var(--white);
+}
+
+.layer2 .long-about1 img
+{
+  width: 20vw;
+  border-radius: 1rem;
+  margin-top: auto;
+}
+
+/*-----------------------------------------------------------------------------------------------Layer 3--------------------------------------------------------------------------------------*/
+
+.layer3 .long-about2
+{
+  width: 100%;
+  background: var(--gradient);
+  padding: 2rem 5rem 2rem 5rem;
+  display: flex;
+  margin-bottom: 0.7rem;
+}
+
+.layer3 .long-about2 .join
+{
+  padding: 0rem 0rem 0rem 2rem;
+}
+
+.layer3 .long-about2 img
+{
+  width: 20vw;
+  border-radius: 1rem;
+  margin-bottom: auto;
+}
+
+.layer3 .long-about2 .join h1
+{
+  color: var(--white);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.layer3 .long-about2 .join p 
+{
+  color: var(--white);
+  font-size: 1.3rem;
+}
+
+footer
+{
+  background: var(--gradient2);
+  border-radius: 0rem 0rem 1rem 1rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: 37% 32% 31%;
+  grid-template-rows: 90% 10%;
+  padding-bottom: 2rem;
+}
+
+footer .about 
+{
+  padding: 3rem 0rem 1rem 5rem  ;
+  grid-template-rows: auto auto;
+  grid-column: 1;
+  width: 100%;
+  justify-content: center;
+}
+
+footer .about h1
+{
+  color: var(--white);
+  font-size: 2.5rem;
+  grid-row: 1;
+  height: 15%;
+  text-align: center;
+}
+
+footer .about p
+{
+  color: var(--white);
+  font-size: 1.3rem;
+  grid-row: 2;
+  height: 60%;
+  text-align: center;
+}
+
+footer .support
+{
+  padding: 3rem 1rem 1rem 1rem;
+  grid-template-rows: auto auto;
+  grid-column: 2;
+  width: 100%;
+}
+
+footer .support h1
+{
+  color: var(--white);
+  font-size: 2.5rem;
+  grid-row: 1;
+  height: 15%;
+  text-align: center;
+}
+
+footer .support ul
+{
+  text-align: center;
+  font-size: 1.3rem;
+  list-style: none;
+}
+
+footer .support ul li a
+{
+  color: var(--white);
+  text-decoration: none;
+}
+
+footer .support ul li:hover
+{
+  transform: scale(1.3);
+  transition-duration: 0.5s;
+}
+
+footer .support ul li:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+footer .support div
+{
+  font-size: 2.4rem;
+  color: var(--white);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+footer .support div ion-icon:hover
+{
+  transform: scale(1.4);
+  transition-duration: 0.5s;
+}
+
+footer .support div ion-icon:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+footer .newsletter
+{
+  padding: 3rem 5rem 1rem 5rem;
+  grid-template-rows: auto auto auto auto;
+  grid-column: 3;
+  text-align: center;
+}
+
+footer .newsletter h1
+{
+  color: var(--white);
+  font-size: 2.5rem;
+  grid-row: 1;
+  height: 15%;
+  text-align: center;
+}
+
+footer .newsletter input
+{
+  border: none;
+  color: var(--black);
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  width: 100%;
+  border-radius: 1rem;
+  grid-row: 2;
+  margin-bottom: 2rem;
+}
+
+footer .newsletter p 
+{
+  font-size: 1.3rem;
+  color: var(--white);
+  grid-row: 4;
+  height: 15%;
+}
+
+footer .newsletter button
+{
+  font-size: 1.3rem;
+  color: var(--blue);
+  padding: 1rem 5rem;
+  width: 80%;
+  border: none;
+  border-radius: 1rem;  
+}
+
+footer .newsletter button:hover
+{
+  color: var(--white);
+  background: var(--secondary);
+  transition-duration: 0.5s;
+}
+
+footer .newsletter button:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+.copyright
+{
+  grid-row: 2;
+  grid-column: 2;
+  margin-top: 1rem;
+}
+
+.copyright p
+{
+  font-size: 1.3rem;
+  color: var(--white);
+  text-align: center;
+}
+}
+
+/*------------------------------------------------------------------------------------------992px to 1200px-------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------1200px to 1399px-------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+
+.layer
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.empty
+{
+  height: 458rem;
+}
+
+.navLayer1
+{
+  background: none;
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.7rem;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.nav-logo
+{
+  width: 12rem;
+}
+
+.nav-link
+{
+	color: var(--white);
+  font-weight: 700;
+	font-size: 1.4rem;
+	letter-spacing: 0.2em;
+	margin: 0rem 0rem 0rem 3rem;
+}
+
+.nav-link:hover
+{
+  color: var(--blue);
+  transition-duration: 0.5s;
+}
+
+.svg1
+{
+  position: absolute;
+  z-index: -1;
+  left: -95%;
+  animation: svg1anim 3s linear;
+  width: 210%;
+  height: 100%;
+}
+
+/*-----------------------------------------------------------------------------------------------Layer 1--------------------------------------------------------------------------------------*/
+
+.AboutusTxt
+{
+  width: 100%;
+  background: var(--gradient);
+  padding: 2rem 0rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.AboutusTxt h1
+{
+  color: var(--white);
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.short-about
+{
+  width: auto;
+  height: auto;
+  padding: 2rem 2rem 0rem 2rem;
+  background: var(--blue);
+  overflow: hidden;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.short-about h1
+{
+  color: var(--white);
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+.short-about .about
+{
+  display: flex;
+  padding: 2rem 1rem;
+}
+
+.short-about .about h2
+{
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+}
+
+.short-about .about p 
+{
+  color: var(--white);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.short-about hr 
+{
+  background: var(--white);
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: none;
+}
+
+.what
+{
+  border-left: 0.1rem solid var(--white);
+  border-right: 0.1rem solid var(--white);
+}
+
+.layer1 .long-about
+{
+  background: var(--gradient2);
+  width: 100%;
+  padding: 3rem 4rem 3rem 4rem;
+  display: flex;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.layer1 .long-about img
+{
+  width: 25vw;
+  height: auto;
+  border-radius: 1rem;
+  margin-top: auto;
+}
+
+.layer1 .long-about .vision
+{
+  padding: 0rem 0rem 0rem 4rem;
+  margin-bottom: 3rem;
+}
+
+.layer1 .long-about .classes
+{
+  padding: 0rem 0rem 0rem 4rem;
+}
+
+.layer1 .long-about .vision h1, .long-about .classes h1
+{
+  font-size: 2rem;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.layer1 .long-about .vision p, .long-about .classes p
+{
+  font-size: 1.4rem;
+  color: var(--white);
+}
+
+/*-----------------------------------------------------------------------------------------------Layer 2--------------------------------------------------------------------------------------*/
+
+.layer2 .long-about
+{
+  width: 100%;
+  background: var(--gradient);
+  display: flex;
+  padding: 5rem 5rem 5rem 5rem;
+}
+
+.layer2 .long-about .values
+{
+  padding: 0rem 3rem 0rem 0rem;
+}
+
+.layer2 .long-about .values h1
+{
+   color: var(--white);
+   font-size: 2rem;
+   margin-bottom: 1.5rem;
+}
+
+.layer2 .long-about .values p
+{
+  font-size: 1.4rem;
+  color: var(--white);
+}
+
+.layer2 .long-about .values p span
+{
+  font-weight: 1000;
+  font-size: 1.5rem;
+}
+
+.layer2 .long-about img
+{
+  width: 25vw;
+  margin-top: auto;
+  border-radius: 1rem;
+}
+
+.layer2 .long-about1
+{
+  width: 100%;
+  background: var(--gradient2);
+  display: flex;
+  padding: 3rem 4rem 3rem 4rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.layer2 .long-about1 .team
+{
+  padding: 0rem 0rem 0rem 4rem;
+  margin-bottom: 3rem;
+}
+
+.layer2 .long-about1 .community
+{
+  padding: 0rem 0rem 0rem 4rem;
+}
+
+.layer2 .long-about1 .team h1, .layer2 .long-about1 .community h1
+{
+  color: var(--white);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.layer2 .long-about1 .team p, .layer2 .long-about1 .community p
+{
+  font-size: 1.4rem;
+  color: var(--white);
+}
+
+.layer2 .long-about1 img
+{
+  width: 25vw;
+  border-radius: 1rem;
+  margin-top: auto;
+}
+
+/*-----------------------------------------------------------------------------------------------Layer 3--------------------------------------------------------------------------------------*/
+
+.layer3 .long-about2
+{
+  width: 100%;
+  background: var(--gradient);
+  padding: 3rem 4rem 3rem 4rem;
+  display: flex;
+  margin-bottom: 0.7rem;
+}
+
+.layer3 .long-about2 .join
+{
+  padding: 0rem 0rem 0rem 5rem;
+}
+
+.layer3 .long-about2 img
+{
+  width: 25vw;
+  border-radius: 1rem;
+}
+
+.layer3 .long-about2 .join h1
+{
+  color: var(--white);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.layer3 .long-about2 .join p 
+{
+  color: var(--white);
+  font-size: 1.4rem;
+}
+
+footer
+{
+  background: var(--gradient2);
+  border-radius: 0rem 0rem 1rem 1rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .about 
+{
+  padding: 2rem 0rem 1rem 2rem  ;
+  grid-template-rows: auto auto;
+  grid-column: 1;
+  width: 100%;
+  justify-content: center;
+}
+
+footer .about h1
+{
+  font-size: 2.7rem;
+  height: 20%;
+}
+
+footer .about p
+{
+  font-size: 1.4rem;
+}
+
+footer .support
+{
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+footer .support h1
+{
+  font-size: 2.7rem;
+  height: 20%;
+}
+
+footer .support ul
+{
+  font-size: 1.4rem;
+}
+
+footer .support div
+{
+  font-size: 2.4rem;
+}
+
+footer .newsletter
+{
+  padding: 2rem 2rem 1rem 0rem;
+}
+
+footer .newsletter h1
+{
+  font-size: 2.7rem;
+  height: 20%;
+}
+
+footer .newsletter input
+{
+  font-size: 1.4rem;
+}
+
+footer .newsletter p 
+{
+  font-size: 1.4rem;
+}
+
+footer .newsletter button
+{
+  font-size: 1.4rem;
+  width: 100%; 
+}
+
+.copyright
+{
+  grid-row: 2;
+  grid-column: 2;
+  margin-top: 1rem;
+}
+
+.copyright p
+{
+  font-size: 1.3rem;
+  color: var(--white);
+  text-align: center;
+}
+}
+
+/*------------------------------------------------------------------------------------------1200px to 1399px---------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------1200px to 1399px---------------------------------------------------------------------------*/
+
+@media screen and (min-width:1400px) and (max-width:1599px){
+
+.empty{
+  height: 455rem;
+}
+
+footer
+{
+  background: var(--gradient2);
+  border-radius: 0rem 0rem 1rem 1rem;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .about 
+{
+  padding: 2rem 0rem 1rem 2rem  ;
+  grid-template-rows: auto auto;
+  grid-column: 1;
+  width: 100%;
+  justify-content: center;
+}
+
+footer .about h1
+{
+  font-size: 2.6rem;
+  height: 25%;
+}
+
+footer .about p
+{
+  font-size: 1.3rem;
+}
+
+footer .support
+{
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+footer .support h1
+{
+  font-size: 2.6rem;
+  height: 25%;
+}
+
+footer .support ul
+{
+  font-size: 1.3rem;
+}
+
+footer .support div
+{
+  font-size: 1.8rem;
+}
+
+footer .newsletter
+{
+  padding: 2rem 2rem 1rem 0rem;
+}
+
+footer .newsletter h1
+{
+  font-size: 2.6rem;
+  height: 25%;
+}
+
+footer .newsletter input
+{
+  font-size: 1.3rem;
+}
+
+footer .newsletter p 
+{
+  font-size: 1.3rem;
+}
+
+footer .newsletter button
+{
+  font-size: 1.4rem;
+  width: 100%; 
+}
+}

@@ -1,0 +1,1941 @@
+/*------------------------------------------------------------------------------------------575px to 767px----------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 280px) and (max-width: 767px){
+
+body .backgroundTxt1
+{
+  font-size: 1400%;
+  top: 60%;
+  right: -141%;
+  animation: background1 8s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background1
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-170%);
+  }
+}
+
+body .backgroundTxt2
+{
+  font-size: 1000%;
+  top: 20%;
+  left: -101%;
+  animation: background2 7.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background2
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(200%);
+  }
+}
+
+body .backgroundTxt3
+{
+  font-size: 300%;
+  top: 0%;
+  right: -30%;
+  animation: background3 6s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background3
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-450%);
+  }
+}
+
+body .backgroundTxt4
+{
+  font-size: 800%;
+  top: 80%;
+  left: -115%;
+  animation: background4 6s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background4
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(190%);
+  }
+}
+
+body .backgroundTxt5
+{
+  font-size: 450%;
+  top: 5%;
+  left: -45%;
+  animation: background5 6.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background5
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(330%);
+  }
+}
+
+body .backgroundTxt6
+{
+  font-size: 1300%;
+  top: 40%;
+  left: -135%;
+  animation: background6 5.5s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background6
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(180%);
+  }
+}
+
+/*--------------------------------------------------------------------------------------------Navbar---------------------------------------------------------------------------------------------*/
+
+.navLayer1
+{
+  background: var(--secondary);
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.layer
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.2rem;
+}
+
+.nav-logo
+{
+  width: 10rem;
+}
+
+.svg1, .svg2
+{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------Layer1-------------------------------------------------------------------------------*/
+
+.packages
+{
+  background: var(--gradient2);
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  position: relative;
+  left: 0%;
+  transform: translateX(0%);
+  top: 0vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 25% 25% 25% 25%;
+  padding: 1rem;
+}
+
+.package
+{
+  background: var(--gradient);
+  border: 0.1rem solid var(--white);
+  overflow: hidden;
+}
+
+.package-1
+{
+  border-radius: 1rem 1rem 0rem 0rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.package-2
+{
+	grid-row: 2;
+	grid-column: 1;
+}
+
+.package-3
+{
+	grid-row: 3;
+	grid-column: 1;
+}
+
+.package-4
+{
+	grid-row: 4;
+	grid-column: 1;
+	border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.package-1 .offer, .package-2 .offer, .package-3 .offer, .package-4 .offer
+{
+  position: relative;
+}
+
+.package-1 .offer h2, .package-2 .offer h2, .package-3 .offer h2, .package-4 .offer h2
+{
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.package-1 .offer h1, .package-2 .offer h1, .package-3 .offer h1, .package-4 .offer h1
+{
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.package-1 .offer h1 span, .package-2 .offer h1 span, .package-3 .offer h1 span, .package-4 .offer h1 span
+{
+  font-size: 1.8rem;
+}
+
+.package-1 button, .package-2 button, .package-3 button, .package-4 button
+{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: var(--white);
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.package-1 button:hover, .package-2 button:hover, .package-3 button:hover, .package-4 button:hover
+{
+  border-radius: 3rem;
+  transition-duration: 1s;
+}
+
+.package-1 button:not(:hover), .package-2 button:not(:hover), .package-3 button:not(:hover), .package-4 button:not(:hover)
+{
+  transition-duration: 1s;
+}
+
+.package-1 h4 span, .package-2 h4 span, .package-3 h4 span, .package-4 h4 span
+{
+  margin-right: 0.4rem;
+}
+
+.package-1 h4, .package-2 h4, .package-3 h4, .package-4 h4
+{
+  font-size: 1.4rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.package-1 h5, .package-2 h5, .package-3 h5
+{
+  color: var(--white);
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.package-4 h5
+{
+	margin-top: 3;
+}
+
+.package-1 h5 span a, .package-2 h5 span a, .package-3 h5 span a, .package-4 h5 span a
+{
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.package-1 h5 span a:hover, .package-2 h5 span a:hover, .package-3 h5 span a:hover, .package-4 h5 span a:hover
+{
+  color: var(--black);
+}
+
+.packageBgTxt1, .packageBgTxt2, .packageBgTxt3, .packageBgTxt4, .packageBgTxt5, .packageBgTxt6
+{
+  display: none;
+}
+
+.samples
+{
+  background: var(--gradient);
+  border-radius: 0rem 0rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 3rem 0rem 3rem 0rem;
+  display: inline;
+  margin-top: 0.7rem;
+  overflow: hidden;
+}
+
+.tabs h1
+{
+  color: var(--blue); 
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-decoration: none;
+  width: 25rem;
+  background: var(--white);
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  border: 0.2rem solid white;
+}
+
+.tabs h1:hover
+{
+  color: var(--white);
+  background: var(--gradient);
+  border: 0.2rem solid white;
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}
+
+.tabs h1:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+.meditation1
+{
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.mindfulness1
+{
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.meditation1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.sleep1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.stress1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.mindfulness1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+#meditation1
+{
+  display: block;
+}
+
+#sleep1, #stress1, #mindfulness1
+{
+  display: none;
+}
+
+.tabs-content h3
+{
+  font-size: 2.2rem;
+  margin-left: 0%;
+  transform: translateX(0%);
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.tabs-content audio 
+{
+  margin-top: 5rem;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}
+}
+
+/*------------------------------------------------------------------------------------------575px to 767px----------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------767px to 991px----------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 767px) and (max-width: 991px){
+
+body .backgroundTxt1
+{
+  font-size: 1800%;
+  top: 60%;
+  right: -150%;
+  animation: background1 9s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background1
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-230%);
+  }
+}
+
+body .backgroundTxt2
+{
+  font-size: 1300%;
+  top: 20%;
+  left: -100%;
+  animation: background2 8.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background2
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(300%);
+  }
+}
+
+body .backgroundTxt3
+{
+  font-size: 350%;
+  top: 0%;
+  right: -30%;
+  animation: background3 7s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background3
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-700%);
+  }
+}
+
+body .backgroundTxt4
+{
+  font-size: 1000%;
+  top: 75%;
+  left: -76%;
+  animation: background4 7s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background4
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(300%);
+  }
+}
+
+body .backgroundTxt5
+{
+  font-size: 500%;
+  top: 5%;
+  left: -40%;
+  animation: background5 7.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background5
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(500%);
+  }
+}
+
+body .backgroundTxt6
+{
+  font-size: 1250%;
+  top: 40%;
+  left: -110%;
+  animation: background6 6.5s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background6
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(300%);
+  }
+}
+
+/*--------------------------------------------------------------------------------------------Navbar---------------------------------------------------------------------------------------------*/
+
+.navLayer1
+{
+  background: var(--secondary);
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 0.5rem 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.layer
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.2rem;
+}
+
+.nav-logo
+{
+  width: 11rem;
+}
+
+.svg1, .svg2
+{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------Layer1-------------------------------------------------------------------------------*/
+
+.packages
+{
+  background: var(--gradient2);
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  position: relative;
+  left: 0%;
+  transform: translateX(0%);
+  top: 0vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  padding: 1rem;
+}
+
+.package
+{
+  background: var(--gradient);
+  border: 0.1rem solid var(--white);
+  overflow: hidden;
+}
+
+.package-1
+{
+  border-radius: 1rem 1rem 0rem 0rem;
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.package-2
+{
+	grid-row: 1;
+	grid-column: 2;
+}
+
+.package-3
+{
+	grid-row: 2;
+	grid-column: 1;
+}
+
+.package-4
+{
+	grid-row: 2;
+	grid-column: 2;
+	border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.package-1 .offer, .package-2 .offer, .package-3 .offer, .package-4 .offer
+{
+  position: relative;
+}
+
+.package-1 .offer h2, .package-2 .offer h2, .package-3 .offer h2, .package-4 .offer h2
+{
+  text-align: center;
+  font-size: 2.8rem;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.package-1 .offer h1, .package-2 .offer h1, .package-3 .offer h1, .package-4 .offer h1
+{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.package-1 .offer h1 span, .package-2 .offer h1 span, .package-3 .offer h1 span, .package-4 .offer h1 span
+{
+  font-size: 2rem;
+}
+
+.package-1 button, .package-2 button, .package-3 button, .package-4 button
+{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: var(--white);
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.package-1 button:hover, .package-2 button:hover, .package-3 button:hover, .package-4 button:hover
+{
+  border-radius: 3rem;
+  transition-duration: 1s;
+}
+
+.package-1 button:not(:hover), .package-2 button:not(:hover), .package-3 button:not(:hover), .package-4 button:not(:hover)
+{
+  transition-duration: 1s;
+}
+
+.package-1 h4 span, .package-2 h4 span, .package-3 h4 span, .package-4 h4 span
+{
+  margin-right: 0.4rem;
+}
+
+.package-1 h4, .package-2 h4, .package-3 h4, .package-4 h4
+{
+  font-size: 1.5rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.package-1 h5, .package-2 h5, .package-3 h5
+{
+  color: var(--white);
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.package-4 h5
+{
+	margin-top: 3;
+}
+
+.package-1 h5 span a, .package-2 h5 span a, .package-3 h5 span a, .package-4 h5 span a
+{
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.package-1 h5 span a:hover, .package-2 h5 span a:hover, .package-3 h5 span a:hover, .package-4 h5 span a:hover
+{
+  color: var(--black);
+}
+
+.packageBgTxt1, .packageBgTxt2, .packageBgTxt3, .packageBgTxt4, .packageBgTxt5, .packageBgTxt6
+{
+  display: none;
+}
+
+.samples
+{
+  background: var(--gradient);
+  border-radius: 0rem 0rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 3rem 0rem 3rem 0rem;
+  display: inline;
+  margin-top: 0.7rem;
+  overflow: hidden;
+}
+
+.tabs h1
+{
+  color: var(--blue); 
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: none;
+  width: 25rem;
+  background: var(--white);
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  border: 0.2rem solid white;
+}
+
+.tabs h1:hover
+{
+  color: var(--white);
+  background: var(--gradient);
+  border: 0.2rem solid white;
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}
+
+.tabs h1:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+.meditation1
+{
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.mindfulness1
+{
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.meditation1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.sleep1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.stress1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.mindfulness1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+#meditation1
+{
+  display: block;
+}
+
+#sleep1, #stress1, #mindfulness1
+{
+  display: none;
+}
+
+.tabs-content h3
+{
+  font-size: 2.4rem;
+  margin-left: 0%;
+  transform: translateX(0%);
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.tabs-content audio 
+{
+  margin-top: 5rem;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+}
+
+/*------------------------------------------------------------------------------------------767px to 991px----------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------992px to 1199px----------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+body .backgroundTxt1
+{
+  font-size: 1800%;
+  top: 60%;
+  right: -150%;
+  animation: background1 9.5s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background1
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-260%);
+  }
+}
+
+body .backgroundTxt2
+{
+  font-size: 1300%;
+  top: 20%;
+  left: -100%;
+  animation: background2 8.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background2
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(300%);
+  }
+}
+
+body .backgroundTxt3
+{
+  font-size: 350%;
+  top: 0%;
+  right: -30%;
+  animation: background3 7s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background3
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-700%);
+  }
+}
+
+body .backgroundTxt4
+{
+  font-size: 1000%;
+  top: 75%;
+  left: -76%;
+  animation: background4 8.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background4
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(350%);
+  }
+}
+
+body .backgroundTxt5
+{
+  font-size: 500%;
+  top: 5%;
+  left: -40%;
+  animation: background5 7.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background5
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(550%);
+  }
+}
+
+body .backgroundTxt6
+{
+  font-size: 1250%;
+  top: 40%;
+  left: -110%;
+  animation: background6 7s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background6
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(350%);
+  }
+}
+
+/*--------------------------------------------------------------------------------------------Navbar---------------------------------------------------------------------------------------------*/
+
+.navLayer1
+{
+  background: var(--secondary);
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 0.5rem 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.layer
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.2rem;
+}
+
+.nav-link
+{
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: 0.2em;
+  margin: 0rem 0rem 0rem 3rem;
+}
+
+.nav-logo
+{
+  width: 11rem;
+}
+
+.svg1, .svg2
+{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------Layer1-------------------------------------------------------------------------------*/
+
+.packages
+{
+  background: var(--gradient2);
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  position: relative;
+  left: 0%;
+  transform: translateX(0%);
+  top: 0vh;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 1rem;
+}
+
+.package
+{
+  background: var(--gradient);
+  border: 0.1rem solid var(--white);
+  overflow: hidden;
+}
+
+.package-1
+{
+  border-radius: 1rem 0rem 0rem 1rem;
+  grid-column: 1;
+}
+
+.package-2
+{
+	grid-column: 2;
+}
+
+.package-3
+{
+	grid-column: 3;
+}
+
+.package-4
+{
+	grid-column: 4;
+	border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.package-1 .offer, .package-2 .offer, .package-3 .offer, .package-4 .offer
+{
+  position: relative;
+}
+
+.package-1 .offer h2, .package-2 .offer h2, .package-3 .offer h2, .package-4 .offer h2
+{
+  text-align: center;
+  font-size: 2.8rem;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.package-1 .offer h1, .package-2 .offer h1, .package-3 .offer h1, .package-4 .offer h1
+{
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.package-1 .offer h1 span, .package-2 .offer h1 span, .package-3 .offer h1 span, .package-4 .offer h1 span
+{
+  font-size: 2rem;
+}
+
+.package-1 button, .package-2 button, .package-3 button, .package-4 button
+{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: var(--white);
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.package-1 button:hover, .package-2 button:hover, .package-3 button:hover, .package-4 button:hover
+{
+  border-radius: 3rem;
+  transition-duration: 1s;
+}
+
+.package-1 button:not(:hover), .package-2 button:not(:hover), .package-3 button:not(:hover), .package-4 button:not(:hover)
+{
+  transition-duration: 1s;
+}
+
+.package-1 h4 span, .package-2 h4 span, .package-3 h4 span, .package-4 h4 span
+{
+  margin-right: 0.4rem;
+}
+
+.package-1 h4, .package-2 h4, .package-3 h4, .package-4 h4
+{
+  font-size: 1.5rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.package-1 h5, .package-2 h5, .package-3 h5
+{
+  color: var(--white);
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+.package-4 h5
+{
+	margin-top: 3;
+}
+
+.package-1 h5 span a, .package-2 h5 span a, .package-3 h5 span a, .package-4 h5 span a
+{
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.package-1 h5 span a:hover, .package-2 h5 span a:hover, .package-3 h5 span a:hover, .package-4 h5 span a:hover
+{
+  color: var(--black);
+}
+
+.packageBgTxt1, .packageBgTxt2, .packageBgTxt3, .packageBgTxt4, .packageBgTxt5, .packageBgTxt6
+{
+  display: block;
+}
+
+.samples
+{
+  background: var(--gradient);
+  border-radius: 0rem 0rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 3rem 0rem 3rem 0rem;
+  display: flex;
+  margin-top: 0.7rem;
+  overflow: hidden;
+}
+
+.tabs h1
+{
+  color: var(--blue); 
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: none;
+  width: 25rem;
+  background: var(--white);
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  border: 0.2rem solid white;
+}
+
+.tabs h1:hover
+{
+  color: var(--white);
+  background: var(--gradient);
+  border: 0.2rem solid white;
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}
+
+.tabs h1:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+.meditation1
+{
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.mindfulness1
+{
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.meditation1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.sleep1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.stress1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.mindfulness1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+#meditation1
+{
+  display: block;
+}
+
+#sleep1, #stress1, #mindfulness1
+{
+  display: none;
+}
+
+.tabs-content h3
+{
+  font-size: 2.4rem;
+  margin-left: 0%;
+  transform: translateX(0%);
+  color: white;
+  text-align: center;
+  margin-top: 3rem;
+  position: relative;
+}
+
+.tabs-content audio 
+{
+  margin-top: 5rem;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+}
+}
+
+/*------------------------------------------------------------------------------------------992px to 1199px----------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------1200px to 1399px----------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+
+body .backgroundTxt1
+{
+  font-size: 1800%;
+  top: 60%;
+  right: -150%;
+  animation: background1 9.5s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background1
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-260%);
+  }
+}
+
+body .backgroundTxt2
+{
+  font-size: 1300%;
+  top: 20%;
+  left: -100%;
+  animation: background2 8.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background2
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(300%);
+  }
+}
+
+body .backgroundTxt3
+{
+  font-size: 350%;
+  top: 0%;
+  right: -30%;
+  animation: background3 7s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background3
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(-700%);
+  }
+}
+
+body .backgroundTxt4
+{
+  font-size: 1000%;
+  top: 75%;
+  left: -76%;
+  animation: background4 8.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background4
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(350%);
+  }
+}
+
+body .backgroundTxt5
+{
+  font-size: 500%;
+  top: 5%;
+  left: -40%;
+  animation: background5 7.5s linear infinite;
+  color: var(--bluefaded);
+}
+
+@keyframes background5
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(550%);
+  }
+}
+
+body .backgroundTxt6
+{
+  font-size: 1250%;
+  top: 40%;
+  left: -110%;
+  animation: background6 7s linear infinite;
+  color: var(--lightblue);
+}
+
+@keyframes background6
+{
+  0%
+  {
+    transform: translateX(0%);
+  }
+
+  100%
+  {
+    transform: translateX(350%);
+  }
+}
+
+/*--------------------------------------------------------------------------------------------Navbar---------------------------------------------------------------------------------------------*/
+
+.navLayer1
+{
+  background: var(--secondary);
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 0.5rem 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.layer
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.2rem;
+}
+
+.nav-link
+{
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.2em;
+  margin: 0rem 0rem 0rem 3rem;
+}
+
+.nav-logo
+{
+  width: 11rem;
+}
+
+.svg1, .svg2
+{
+	display: none;
+}
+
+/*-------------------------------------------------------------------------------------------Layer1-------------------------------------------------------------------------------*/
+
+.packages
+{
+  background: var(--gradient2);
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  position: relative;
+  left: 0%;
+  transform: translateX(0%);
+  top: 0vh;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 1rem;
+}
+
+.package
+{
+  background: var(--gradient);
+  border: 0.1rem solid var(--white);
+  overflow: hidden;
+}
+
+.package-1
+{
+  border-radius: 1rem 0rem 0rem 1rem;
+  grid-column: 1;
+}
+
+.package-2
+{
+	grid-column: 2;
+}
+
+.package-3
+{
+	grid-column: 3;
+}
+
+.package-4
+{
+	grid-column: 4;
+	border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.package-1 .offer, .package-2 .offer, .package-3 .offer, .package-4 .offer
+{
+  position: relative;
+}
+
+.package-1 .offer h2, .package-2 .offer h2, .package-3 .offer h2, .package-4 .offer h2
+{
+  text-align: center;
+  font-size: 2.4rem;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.package-1 .offer h1, .package-2 .offer h1, .package-3 .offer h1, .package-4 .offer h1
+{
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.package-1 .offer h1 span, .package-2 .offer h1 span, .package-3 .offer h1 span, .package-4 .offer h1 span
+{
+  font-size: 2rem;
+}
+
+.package-1 button, .package-2 button, .package-3 button, .package-4 button
+{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.package-1 button:hover, .package-2 button:hover, .package-3 button:hover, .package-4 button:hover
+{
+  border-radius: 3rem;
+  transition-duration: 1s;
+}
+
+.package-1 button:not(:hover), .package-2 button:not(:hover), .package-3 button:not(:hover), .package-4 button:not(:hover)
+{
+  transition-duration: 1s;
+}
+
+.package-1 h4 span, .package-2 h4 span, .package-3 h4 span, .package-4 h4 span
+{
+  margin-right: 0.4rem;
+}
+
+.package-1 h4, .package-2 h4, .package-3 h4, .package-4 h4
+{
+  font-size: 1.4rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.package-1 h5, .package-2 h5, .package-3 h5
+{
+  color: var(--white);
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.package-4 h5
+{
+	margin-top: 3;
+}
+
+.package-1 h5 span a, .package-2 h5 span a, .package-3 h5 span a, .package-4 h5 span a
+{
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.package-1 h5 span a:hover, .package-2 h5 span a:hover, .package-3 h5 span a:hover, .package-4 h5 span a:hover
+{
+  color: var(--black);
+}
+
+.packageBgTxt1, .packageBgTxt2, .packageBgTxt3, .packageBgTxt4, .packageBgTxt5, .packageBgTxt6
+{
+  display: block;
+}
+
+.samples
+{
+  background: var(--gradient);
+  border-radius: 0rem 0rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 2rem 0rem 2rem 0rem;
+  display: flex;
+  margin-top: 0.7rem;
+  overflow: hidden;
+}
+
+.tabs h1
+{
+  color: var(--blue); 
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-decoration: none;
+  width: 25rem;
+  background: var(--white);
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 0.6rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  border: 0.2rem solid white;
+}
+
+.tabs h1:hover
+{
+  color: var(--white);
+  background: var(--gradient);
+  border: 0.2rem solid white;
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}
+
+.tabs h1:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+.meditation1
+{
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.mindfulness1
+{
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.meditation1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.sleep1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.stress1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.mindfulness1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+#meditation1
+{
+  display: block;
+}
+
+#sleep1, #stress1, #mindfulness1
+{
+  display: none;
+}
+
+.tabs-content h3
+{
+  font-size: 2.2rem;
+  margin-left: 0%;
+  transform: translateX(0%);
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.tabs-content audio 
+{
+  margin-top: 5rem;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+}
+
+/*---------------------------------------------------------------------------------------1200px to 1399px-------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------------------------1400px------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1400px){
+
+/*--------------------------------------------------------------------------------------------Navbar----------------------------------------------------------------------------------*/
+
+.navLayer1
+{
+  background: var(--secondary);
+  border-radius: 1rem 1rem 0rem 0rem;
+  padding: 0.5rem 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.layer
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem 0.2rem;
+}
+
+.nav-link
+{
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1.4rem;
+  letter-spacing: 0.2em;
+  margin: 0rem 0rem 0rem 3rem;
+}
+
+.nav-logo
+{
+  width: 11rem;
+}
+
+.svg1, .svg2
+{
+  display: none;
+}
+
+/*-------------------------------------------------------------------------------------------Layer1-------------------------------------------------------------------------------*/
+
+.packages
+{
+  background: var(--gradient2);
+  border-radius: 1rem 1rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  position: relative;
+  left: 0%;
+  transform: translateX(0%);
+  top: 0vh;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 1rem;
+}
+
+.package
+{
+  background: var(--gradient);
+  border: 0.1rem solid var(--white);
+  overflow: hidden;
+}
+
+.package-1
+{
+  border-radius: 1rem 0rem 0rem 1rem;
+  grid-column: 1;
+}
+
+.package-2
+{
+  grid-column: 2;
+}
+
+.package-3
+{
+  grid-column: 3;
+}
+
+.package-4
+{
+  grid-column: 4;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.package-1 .offer, .package-2 .offer, .package-3 .offer, .package-4 .offer
+{
+  position: relative;
+}
+
+.package-1 .offer h2, .package-2 .offer h2, .package-3 .offer h2, .package-4 .offer h2
+{
+  text-align: center;
+  font-size: 2.4rem;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.package-1 .offer h1, .package-2 .offer h1, .package-3 .offer h1, .package-4 .offer h1
+{
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 2rem;
+}
+
+.package-1 .offer h1 span, .package-2 .offer h1 span, .package-3 .offer h1 span, .package-4 .offer h1 span
+{
+  font-size: 2rem;
+}
+
+.package-1 button, .package-2 button, .package-3 button, .package-4 button
+{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background: var(--white);
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.package-1 button:hover, .package-2 button:hover, .package-3 button:hover, .package-4 button:hover
+{
+  border-radius: 3rem;
+  transition-duration: 1s;
+}
+
+.package-1 button:not(:hover), .package-2 button:not(:hover), .package-3 button:not(:hover), .package-4 button:not(:hover)
+{
+  transition-duration: 1s;
+}
+
+.package-1 h4 span, .package-2 h4 span, .package-3 h4 span, .package-4 h4 span
+{
+  margin-right: 0.4rem;
+}
+
+.package-1 h4, .package-2 h4, .package-3 h4, .package-4 h4
+{
+  font-size: 1.4rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.package-1 h5, .package-2 h5, .package-3 h5
+{
+  color: var(--white);
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+.package-4 h5
+{
+  margin-top: 3;
+}
+
+.package-1 h5 span a, .package-2 h5 span a, .package-3 h5 span a, .package-4 h5 span a
+{
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+.package-1 h5 span a:hover, .package-2 h5 span a:hover, .package-3 h5 span a:hover, .package-4 h5 span a:hover
+{
+  color: var(--black);
+}
+
+.packageBgTxt1, .packageBgTxt2, .packageBgTxt3, .packageBgTxt4, .packageBgTxt5, .packageBgTxt6
+{
+  display: block;
+}
+
+.samples
+{
+  background: var(--gradient);
+  border-radius: 0rem 0rem 1rem 1rem;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: 2rem 0rem 2rem 0rem;
+  display: flex;
+  margin-top: 0.7rem;
+  overflow: hidden;
+}
+
+.tabs h1
+{
+  color: var(--blue); 
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-decoration: none;
+  width: 25rem;
+  background: var(--white);
+  cursor: pointer;
+  margin: auto;
+  margin-bottom: 0.6rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  border: 0.2rem solid white;
+}
+
+.tabs h1:hover
+{
+  color: var(--white);
+  background: var(--gradient);
+  border: 0.2rem solid white;
+  transition-duration: 0.5s;
+  transform: scale(1.1);
+}
+
+.tabs h1:not(:hover)
+{
+  transition-duration: 0.5s;
+}
+
+.meditation1
+{
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.mindfulness1
+{
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.meditation1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.sleep1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.stress1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.mindfulness1:hover
+{
+  border-radius: 1rem 1rem 1rem 1rem;
+}
+
+#meditation1
+{
+  display: block;
+}
+
+#sleep1, #stress1, #mindfulness1
+{
+  display: none;
+}
+
+.tabs-content h3
+{
+  font-size: 2.2rem;
+  margin-left: 0%;
+  transform: translateX(0%);
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.tabs-content audio 
+{
+  margin-top: 5rem;
+  position: relative;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+}
