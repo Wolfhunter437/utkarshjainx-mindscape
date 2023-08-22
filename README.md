@@ -1,1 +1,1 @@
-# utkarshjainx-mindscape
+I made this website for a competition and I was learn js at that time so my main goal was to play with js and try something different. I read about forward parallax effect for forward scrolling. This concept was fun so I decided to work on it and thankfully I was able to complete the website in time.
